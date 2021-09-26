@@ -85,3 +85,9 @@
 }
 
 /* // Your code here */
+@media print {
+    .timeline,
+    .timeline-labels {
+        min-width: min-content;
+    }
+}
