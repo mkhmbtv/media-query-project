@@ -24,3 +24,28 @@
 }
 
 /* // Your code here */
+
+@media screen and (min-width: 600px) and (max-width: 900px), (min-width: 1200px) {
+    .photo-card {
+        text-align: left;
+    }
+
+    .photo-card .content {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        text-align: left;
+    }
+
+    .photo-card img {
+        flex: 0;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .photo-card {
+        display: inline-block;
+        width: calc(50% - 80px);
+        vertical-align: top;
+    }
+}
